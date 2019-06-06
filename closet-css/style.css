@@ -1,0 +1,319 @@
+/*colors: #D3F7EE #F7D3DC #76FAD9 #949EC2 #DCD3F7*/
+/*twitter blue #38A1F3*/
+/*IG yellow #ffc838 IG blue #125688*/
+/* deep navy #00006B */
+/* millenial pink #fbd2d7 */
+/*global*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  background: #fbe3e9;
+  /* background: #F7DEDE; */
+  color: #012647;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+  margin:0;
+  }
+
+  /* NAV LINKS  */
+nav {
+  background: white;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: center;
+}
+nav ul li {
+  margin: 10px;
+}
+.nav-links {
+background: white;
+color:#949EC2;
+font-family: 'Raleway', sans-serif;
+font-size: 20px;
+font-weight:bold;
+text-decoration: none;
+padding: 1px 5px 2px 5px;
+border-style: solid;
+border-width: 1.5px;
+border-color: #fbe3e9 white;
+margin: 5px;
+}
+.nav-links:hover {
+  color: #DCD3F7;
+}
+/* HAMBURGER NAV */
+/* .hamburger,
+.close {
+    display: none;
+}
+@media (max-width: 650px) {
+    .hamburger,
+    .close {
+      display: block;
+      font-size: 30px;
+    }
+    .main-nav.open-nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        padding: 2% 10%;
+        z-index: 2;
+        background: #DCD3F7;
+        width: 100%;
+        height: 100vh;
+    } */
+
+
+.lookbook-link {
+  background: white;
+  color: #949EC2;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 'black goo';
+  font-size: 60px;
+  text-decoration: none;
+  display: block;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #D3F7EE white;
+}
+.lookbook-link:hover {
+  color: #DCD3F7;
+}
+
+/* shop ethically */
+/* MAYBE CHANGE TO NAVY!? */
+h3 {
+  /* LIGHT BLUE  */
+   /* color: #c5e0f5; */
+  color: #ffd600;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 'black goo';
+  font-size: 60px;
+  text-decoration: none;
+  text-align: left;
+  padding-left: 15px;
+  margin: 10px;
+}
+.shop-ethically {
+  background-color: white;
+  /* border-style: solid; */
+  /* border-width: 3px; */
+  /* border-color: #D3F7EE white; */
+}
+/* curated upcycled sustainable */
+.shop-ethically ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding: 0;
+}
+.shop-ethically ul li {
+  /* display: inline-block; */
+  background: #fbe3e9;
+  /* background: #F7DEDE; */
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight:bold;
+  padding: 1px 8px;
+  margin: 2px 15px;
+}
+/* fashion */
+h4 {
+  /* display: inline-block; */
+  color: #c5e0f5;
+  /* color:#ff805c; */
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  font-weight:bold;
+  text-align: right;
+  padding-right: 25px;
+  margin: 0 auto;
+}
+/* SHOP LINK */
+.shop-link {
+  background: #fbe3e9;
+  /* background: #F7DEDE; */
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  font-weight:bold;
+  text-decoration: none;
+  padding: 2px 35px;
+  /* border-style: solid; */
+  /* border-width: 3px; */
+  /* border-color: #F7D3DC #F7D3DC #fbe3e9; */
+}
+.shop-link:hover {
+  /* color: #D3F7EE; */
+  /* color: #ffd600; */
+  color: #7692A8;
+}
+/* HERSTORY LINK */
+.herstory-link {
+  background: #fbe3e9;
+  /* background: #F7DEDE; */
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  font-weight:bold;
+  text-decoration: none;
+  padding: 3px;
+}
+.herstory-link:hover {
+/* color: #ff805c; */
+color: #7692A8;
+}
+.call-to-shop, .call-to-story {
+  /* background: #949EC2; */
+  color: #00006B;
+  font-size: 25px;
+  /* font-weight: bold; */
+  margin: 15px 2px 2px;
+  border-style: solid;
+  border-width: 2px 0;
+  border-color: #F7D3DC;
+}
+.call-to-shop p, .call-to-story p {
+  margin: 2px;
+}
+.call-to-shop {
+  /* background: #B7B7FF; */
+  background: white;
+  text-align: left;
+  padding-left: 25px;
+}
+.call-to-story {
+  /* background: #D3F7EE; */
+  background: white;
+  text-align: right;
+  padding-right: 25px;
+}
+/* socials */
+/* let's get social */
+h5 {
+  color: #CCB4FA;
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  font-weight: 'extra-bold';
+  font-size: 60px;
+  text-decoration: none;
+  margin: 0 auto;
+}
+/*this is the twitter logo ask how to change the class name*/
+.fab {
+  color: #38A1F3;
+  font-size: 100px;
+  text-decoration: none;
+  margin: 2px 30px;
+}
+.fab:hover {
+  /* color:#125688; */
+  color: #bdf6e9;
+}
+/* .social-img-links { */
+  /* display:flex; */
+  /* justify-content: center; */
+/* } */
+#socials {
+  background: white;
+  font-size: 25px;
+  border-style: solid;
+  border-width: 2px 0;
+  border-color: #F476FA;
+  margin: 15px 2px 2px;
+}
+#socials p {
+  margin: 0;
+}
+
+/* footer */
+footer {
+  background: white;
+}
+/* #contact-and-returns ul {
+  display:flex;
+} */
+#contact-and-returns ul li{
+  list-style: none;
+  padding: 0;
+}
+
+#contact {
+  text-align: left;
+  line-height: 1;
+  /* display: flex;
+  justify-content: flex-start; */
+  }
+.contact-form-link {
+  /* background: #fbe3e9; */
+  color: #fbe3e9;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  font-weight:medium;
+  text-decoration-color: #fbe3e9;
+}
+.contact-form-link:hover {
+color: #949EC2;
+text-decoration-color: #949EC2;
+}
+#returns {
+  text-align: right;
+}
+.shipping-and-returns-link {
+  background: #fbe3e9;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight:medium;
+  text-decoration: none;
+}
+.shipping-and-returns-link:hover{
+  color: #949EC2;
+}
+
+#jump-to-top{
+  color: white;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#jump-to-top:hover{
+  color: #949EC2;
+}
+#credit {
+  font-size: 10px;
+  color: #949EC2;
+}
+.freepik-link,
+.flaticon-link,
+.cc-link{
+  color: #7692A8;
+  text-decoration: none;
+  font-weight: bold;
+}
+.freepik-link:hover,
+.flaticon-link:hover,
+.cc-link:hover {
+  color: white;
+}
+
+/*herstory page*/
+.fashrevlink {
+  color: #38A1F3;
+  text-decoration: none;
+}
+.fashrevlink:hover {
+  color: #ffc838;
+}
